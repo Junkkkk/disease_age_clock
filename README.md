@@ -1,5 +1,4 @@
 # Disease-Specific Proteomic Aging Clocks
-**"Disease-specific proteomic aging clocks as maximized mediators of disease incidence"**
 
 ## Overview
 

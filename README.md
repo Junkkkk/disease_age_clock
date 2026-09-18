@@ -16,8 +16,7 @@ ADRC).
 The official standalone implementation of the MaxIE method is maintained in
 the [optmed repository](https://github.com/statzihuai/optmed). It provides the
 core algorithm in both Python and R, together with Quick Start examples that
-generate fully simulated data using `generate_data()`. The demonstration does
-not require or expose any UK Biobank or Stanford ADRC participant-level data.
+generate fully simulated data using `generate_data()`.
 
 The copy of `optmed.py` in `src/` is included to document the exact core
 implementation used by the disease-specific analysis pipeline.

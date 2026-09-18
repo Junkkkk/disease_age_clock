@@ -11,6 +11,17 @@ validated in the Stanford ADRC cohort (n = 501).
 Raw data are not included due to data use agreements (UK Biobank, Stanford
 ADRC).
 
+## Core software and simulated demonstration
+
+The official standalone implementation of the MaxIE method is maintained in
+the [optmed repository](https://github.com/statzihuai/optmed). It provides the
+core algorithm in both Python and R, together with Quick Start examples that
+generate fully simulated data using `generate_data()`. The demonstration does
+not require or expose any UK Biobank or Stanford ADRC participant-level data.
+
+The copy of `optmed.py` in `src/` is included to document the exact core
+implementation used by the disease-specific analysis pipeline.
+
 ## Repository structure
 
 ```
@@ -85,6 +96,17 @@ figures/
 **R** (≥ 4.3): ggplot2, dplyr, tidyr, readr, patchwork, ggrepel, scales,
 forcats, hexbin, stringr, uwot, fgsea, msigdbr, lme4, cowplot, ggseg, sf,
 jsonlite
+
+## License
+
+The analysis code in this repository is released under the
+[MIT License](https://opensource.org/license/mit/). The core MaxIE software is
+also maintained and released under the MIT License in the
+[optmed repository](https://github.com/statzihuai/optmed).
+
+These software licenses apply only to the code. They do not grant access to or
+rights to use UK Biobank, Stanford ADRC, or other third-party data, which remain
+governed by their respective data use agreements.
 
 ## Contact
 
